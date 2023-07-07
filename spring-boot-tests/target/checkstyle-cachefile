@@ -1,0 +1,4 @@
+#Thu Jul 06 14:34:31 CST 2023
+module-resource*?\:file\:/Users/van/train/org_202376/springframework/spring-boot/spring-boot-tests/../src/checkstyle/import-control.xml=501E63EF5CF54503C25CFCD450350D6CB60890F7
+module-resource*?\:/Users/van/train/org_202376/springframework/spring-boot/spring-boot-tests/../src/checkstyle/nohttp-whitelist.txt=328B1ABFA370764752130648177949DC2368C778
+configuration*?=262AFC86CE5C58D3AA52A577D211B110676EEAF7

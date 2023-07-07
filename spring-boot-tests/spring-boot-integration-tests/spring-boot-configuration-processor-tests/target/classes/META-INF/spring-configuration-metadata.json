@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "sample.AnnotatedSample",
+      "name": "annotated",
+      "type": "sample.AnnotatedSample"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "sample.AnnotatedSample",
+      "name": "annotated.name",
+      "description": "A valid name.",
+      "type": "java.lang.String"
+    }
+  ]
+}

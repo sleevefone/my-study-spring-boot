@@ -1,0 +1,16 @@
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/data/RandomAccessDataFileTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/jar/AsciiBytesTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/archive/JarFileArchiveTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/LaunchedURLClassLoaderTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/jar/JarFileTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/TestJarCreator.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/archive/ExplodedArchiveTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/jar/CentralDirectoryParserTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/jar/JarURLConnectionTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/AbstractExecutableArchiveLauncherTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/WarLauncherTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/PropertiesLauncherTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/util/SystemPropertyUtilsTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/jar/HandlerTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/JarLauncherTests.java
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-project/spring-boot-tools/spring-boot-loader/src/test/java/org/springframework/boot/loader/jar/StringSequenceTests.java

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-jersey" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-jetty-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-jta-jndi" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-tomcat-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-traditional" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-war" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-web-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-web-static" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-oauth2-client/.flattened-pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-samples/spring-boot-sample-data-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-samples/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-boot-project/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-actuator-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-project/spring-boot/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

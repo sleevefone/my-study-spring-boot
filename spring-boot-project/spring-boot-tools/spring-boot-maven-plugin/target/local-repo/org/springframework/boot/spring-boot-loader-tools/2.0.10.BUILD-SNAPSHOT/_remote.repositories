@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jul 06 14:33:25 CST 2023
+spring-boot-loader-tools-2.0.10.BUILD-SNAPSHOT.jar>=
+spring-boot-loader-tools-2.0.10.BUILD-SNAPSHOT.pom>=
+spring-boot-loader-tools-2.0.10.BUILD-SNAPSHOT-sources.jar>=

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.22">
+<file name="/Users/van/train/org_202376/springframework/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-configuration-processor-tests/src/main/java/sample/AnnotatedSample.java">
+</file>
+<file name="/Users/van/train/org_202376/springframework/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-configuration-processor-tests/src/test/java/org/springframework/boot/configurationprocessor/tests/ConfigurationProcessorIntegrationTests.java">
+</file>
+</checkstyle>

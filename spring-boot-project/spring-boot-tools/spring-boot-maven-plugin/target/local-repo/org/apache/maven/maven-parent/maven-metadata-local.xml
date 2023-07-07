@@ -1,0 +1,15 @@
+<metadata>
+  <groupId>org.apache.maven</groupId>
+  <artifactId>maven-parent</artifactId>
+  <versioning>
+    <versions>
+      <version>24</version>
+      <version>23</version>
+      <version>21</version>
+      <version>6</version>
+      <version>15</version>
+      <version>11</version>
+    </versions>
+    <lastUpdated>20230706063325</lastUpdated>
+  </versioning>
+</metadata>

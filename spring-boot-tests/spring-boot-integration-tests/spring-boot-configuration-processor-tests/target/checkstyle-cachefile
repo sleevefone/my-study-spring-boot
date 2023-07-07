@@ -1,0 +1,6 @@
+#Thu Jul 06 14:34:32 CST 2023
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-configuration-processor-tests/src/main/java/sample/AnnotatedSample.java=1688608685000
+module-resource*?\:file\:/Users/van/train/org_202376/springframework/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-configuration-processor-tests/../../../src/checkstyle/import-control.xml=501E63EF5CF54503C25CFCD450350D6CB60890F7
+/Users/van/train/org_202376/springframework/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-configuration-processor-tests/src/test/java/org/springframework/boot/configurationprocessor/tests/ConfigurationProcessorIntegrationTests.java=1688612828000
+module-resource*?\:/Users/van/train/org_202376/springframework/spring-boot/spring-boot-tests/spring-boot-integration-tests/spring-boot-configuration-processor-tests/../../../src/checkstyle/nohttp-whitelist.txt=328B1ABFA370764752130648177949DC2368C778
+configuration*?=82DCE697F39F26AB05C0B0E5FD6399EF570920CD

@@ -1,0 +1,594 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MetadataCycleConfig",
+      "name": "bar",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferential"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferential",
+      "name": "bar.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferential",
+      "name": "bar.self",
+      "sourceMethod": "getSelf()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo",
+      "name": "bar.self.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$CycleConfig",
+      "name": "cycle",
+      "sourceMethod": "cycle()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Cycle"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Cycle",
+      "name": "cycle.alpha",
+      "sourceMethod": "getAlpha()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Cycle$Alpha"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointProxyTests$SqlExecutor",
+      "name": "executor.sql",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointProxyTests$SqlExecutor"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Config",
+      "name": "first",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Foo"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$FooConfig",
+      "name": "foo",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferentialConfig",
+      "name": "foo",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferential"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapConfig",
+      "name": "foo",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapHolder"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$ListConfig",
+      "name": "foo",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$ListHolder"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$AddressedConfig",
+      "name": "foo",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Addressed"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$InitializedMapAndListPropertiesConfig",
+      "name": "foo",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$InitializedMapAndListProperties"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo",
+      "name": "foo.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferential",
+      "name": "foo.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapHolder",
+      "name": "foo.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$ListHolder",
+      "name": "foo.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Addressed",
+      "name": "foo.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$InitializedMapAndListProperties",
+      "name": "foo.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferential",
+      "name": "foo.self",
+      "sourceMethod": "getSelf()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo",
+      "name": "foo.self.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointParentTests$BeanMethodConfigurationProperties",
+      "name": "other",
+      "sourceMethod": "otherProperties()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointParentTests$OtherProperties"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Config",
+      "name": "other",
+      "sourceMethod": "other()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Foo"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$OverriddenPrefix",
+      "name": "other",
+      "sourceMethod": "bar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MetadataMapConfig",
+      "name": "spam",
+      "sourceMethod": "foo()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapHolder"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapHolder",
+      "name": "spam.bar",
+      "sourceMethod": "getBar()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "name": "test",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointParentTests$TestProperties",
+      "name": "test",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointParentTests$TestProperties"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Bar",
+      "name": "test",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Bar"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$HikariDataSourceConfig",
+      "name": "test.datasource",
+      "sourceMethod": "hikariDataSource()",
+      "type": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "name": "test.hidden",
+      "sourceMethod": "getHidden()",
+      "type": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties$Hidden"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar",
+      "defaultValue": "123456",
+      "name": "bar.bar.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferential",
+      "defaultValue": "654321",
+      "name": "bar.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar",
+      "defaultValue": "123456",
+      "name": "bar.self.bar.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo",
+      "defaultValue": "654321",
+      "name": "bar.self.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Foo",
+      "defaultValue": "654321",
+      "name": "first.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Addressed",
+      "name": "foo.address",
+      "type": "java.net.InetAddress"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar",
+      "defaultValue": "123456",
+      "name": "foo.bar.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$ListHolder",
+      "name": "foo.list",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$InitializedMapAndListProperties",
+      "name": "foo.list",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapHolder",
+      "name": "foo.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$InitializedMapAndListProperties",
+      "name": "foo.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Boolean>"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo",
+      "defaultValue": "654321",
+      "name": "foo.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$SelfReferential",
+      "defaultValue": "654321",
+      "name": "foo.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapHolder",
+      "defaultValue": "654321",
+      "name": "foo.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$ListHolder",
+      "defaultValue": "654321",
+      "name": "foo.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Addressed",
+      "defaultValue": "654321",
+      "name": "foo.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$InitializedMapAndListProperties",
+      "defaultValue": "654321",
+      "name": "foo.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar",
+      "defaultValue": "123456",
+      "name": "foo.self.bar.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo",
+      "defaultValue": "654321",
+      "name": "foo.self.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Foo",
+      "defaultValue": "654321",
+      "name": "other.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Bar",
+      "defaultValue": "654321",
+      "name": "other.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$Foo$Bar",
+      "defaultValue": "123456",
+      "name": "spam.bar.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapHolder",
+      "name": "spam.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointSerializationTests$MapHolder",
+      "defaultValue": "654321",
+      "name": "spam.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.allow-pool-suspension",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.connection-init-sql",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.connection-test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.connection-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.data-source-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.health-check-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.health-check-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.idle-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "deprecated": true,
+      "name": "test.datasource.initialization-fail-fast",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.initialization-fail-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.isolate-internal-queries",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "deprecated": true,
+      "name": "test.datasource.jdbc4-connection-test",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.leak-detection-threshold",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.login-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.max-lifetime",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.maximum-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.metric-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.minimum-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.pool-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.register-mbeans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "deprecated": true,
+      "name": "test.datasource.scheduled-executor-service",
+      "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.transaction-isolation",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zaxxer.hikari.HikariDataSource",
+      "name": "test.datasource.validation-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "defaultValue": "123456",
+      "name": "test.db-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties$Hidden",
+      "defaultValue": "mySecret",
+      "name": "test.hidden.mine",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "name": "test.list-items",
+      "type": "java.util.List<org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests.TestProperties.ListItem>"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "name": "test.list-of-list-items",
+      "type": "java.util.List<java.util.List<org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests.TestProperties.ListItem>>"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "defaultValue": "mixed",
+      "name": "test.m-ixed-case",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "defaultValue": true,
+      "name": "test.mixed-boolean",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "defaultValue": "654321",
+      "name": "test.my-test-property",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointParentTests$TestProperties",
+      "defaultValue": "654321",
+      "name": "test.my-test-property",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "defaultValue": "https:\/\/example.com",
+      "name": "test.my-u-r-l",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointMethodAnnotationsTests$Bar",
+      "defaultValue": "654321",
+      "name": "test.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "name": "test.null-value",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "name": "test.secrets",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "defaultValue": true,
+      "name": "test.simple-boolean",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointTests$TestProperties",
+      "defaultValue": "zzz",
+      "name": "test.z",
+      "type": "java.lang.String"
+    }
+  ]
+}
